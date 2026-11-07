@@ -1,0 +1,14 @@
+{
+  "name": "mara-csv-working-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated CSV normalization and technical-writing working sample. Synthetic data only.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/csv.test.mjs",
+    "demo": "node demo.mjs"
+  }
+}

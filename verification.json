@@ -1,0 +1,47 @@
+{
+  "recordedAt": "2026-11-07T19:52:56.838Z",
+  "nodeVersion": "v24.18.0",
+  "checks": {
+    "coreTests": {
+      "command": "npm test",
+      "passed": 21,
+      "failed": 0
+    },
+    "fileDemo": {
+      "command": "node demo.mjs ./demo-output-20261107",
+      "passed": true,
+      "inputRecords": 3,
+      "outputRecords": 2,
+      "duplicateOriginalRowsRemoved": 1,
+      "normalizedCollisionsRetained": 1,
+      "trimmedCells": 1,
+      "inputBytesUnchanged": true,
+      "inputSha256Before": "3c4f8e510373b3df7b0e5129fb29874f0e539e8c89bba1905d94292792a3fbeb",
+      "inputSha256After": "3c4f8e510373b3df7b0e5129fb29874f0e539e8c89bba1905d94292792a3fbeb",
+      "modelCalls": 0
+    }
+  },
+  "exportChanges": [
+    "CSV algorithm and file wrapper retained; AgentError import points to local errors.mjs",
+    "Only21 core tests exported; private agent CLI and helper/config files excluded"
+  ],
+  "clientDataUsed": false,
+  "credentialsIncluded": false,
+  "mcpAgentIntegrationImplemented": false,
+  "paidCommission": false,
+  "sha256": {
+    ".gitignore": "6878868b7800e14319d58de4734de471dc9c06c2d6f732701f91fb34ac0fb669",
+    "ARTICLE.md": "ef6b19c93167ba9539d7337a4d969b6c90de29335dd56e16e694ce1be169f0af",
+    "README.md": "10094221070fe0e0a97672755fae97e8f4b639a7be9e8279442a65e036c4ddd0",
+    "demo.mjs": "80e373b1558646dd4da746870a94011a40e586c2b48c63c50c050e007c6ee75e",
+    "examples/input.csv": "3c4f8e510373b3df7b0e5129fb29874f0e539e8c89bba1905d94292792a3fbeb",
+    "package.json": "72332105bfb747951ea002b0e8d71765629b451077eeb6e310a36443a30850d8",
+    "src/csv-clean.mjs": "72d63a7265f2960702c16f6ee668a9097642399718cd3227ffa3611ef3a4c2e4",
+    "src/csv-format.mjs": "62e9e68d97559eb46a1e89671fe8e5e34850536d821725a3a21f22732ecaab4e",
+    "src/csv.mjs": "fb17bbc42d09257324e6cab5395295462015421f9f55d2bded5e21eff962ad5c",
+    "src/errors.mjs": "7e7fa3d5b2581decee929fac6e66726fbfc0d99ca6c8da181298693b28b14905",
+    "tests/csv.test.mjs": "591535e0490714248a9fc594d77b4de9ff99b28ff6d2056f363357863e3035a5",
+    ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+  },
+  "lineEndings": "LF selected in repository attributes for portable byte-identical fixture"
+}
