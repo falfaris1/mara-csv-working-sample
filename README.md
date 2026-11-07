@@ -5,8 +5,12 @@ This is our own demonstration, not a client reference or a production deployment
 
 Read the original technical note: [Exact duplicates versus normalization collisions](ARTICLE.md).
 
-Requires Node.js 22 or newer. There are no npm dependencies, model calls,
-API keys, credentials, account configuration or customer files in this sample.
+A second note covers a cloud-deployment preflight: [Checking a payment middleware data boundary](ARTICLE-X402-PRIVACY.md). Its [separate experiment](experiments/x402-privacy/) captures local x402 SDK HTTP bodies using synthetic markers and a mock facilitator.
+
+The CSV demonstration below requires Node.js 22 or newer and has no npm
+dependencies. The optional x402 experiment uses Node.js 24 and its own pinned
+SDK dependencies in its own subdirectory. Both use synthetic data and require
+no model calls, API keys, account configuration or customer files.
 
 ```sh
 npm test

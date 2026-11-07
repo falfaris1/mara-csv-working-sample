@@ -1,0 +1,20 @@
+{
+  "name": "mara-x402-privacy-canary",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A loopback-only HTTP serialization experiment for x402 v2 Bazaar metadata.",
+  "engines": {
+    "node": ">=24.0.0 <25.0.0"
+  },
+  "scripts": {
+    "test": "node canary.mjs"
+  },
+  "dependencies": {
+    "@x402/core": "2.30.0",
+    "@x402/express": "2.30.0",
+    "@x402/evm": "2.30.0",
+    "@x402/extensions": "2.30.0",
+    "express": "5.3.0"
+  }
+}
